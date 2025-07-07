@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography | Soveer P Shah</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">SPS</a>
+            <ul class="nav-links">
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./gallery.html">Photography</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="gallery" class="container page-section">
+            <h2 data-aos="fade-up">My Gallery</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                A collection of moments I've captured. Click on any image to see a larger view.
+            </p>
+            
+            <div class="masonry-grid" data-aos="fade-up" data-aos-delay="200">
+                
+                <div class="photo-item" data-index="0">
+                    <img src="../Images/Dog2.jpg" alt="Joy in Motion">
+                    <div class="photo-title">Joy in Motion</div>
+                </div>
+                <div class="photo-item" data-index="1">
+                    <img src="../Images/Bird2.jpg" alt="Feathered Focus">
+                    <div class="photo-title">Feathered Focus</div>
+                </div>
+                <div class="photo-item" data-index="2">
+                    <img src="../Images/Random 1.jpg" alt="Serendipitous Stillness">
+                    <div class="photo-title">Serendipitous Stillness</div>
+                </div>
+                <div class="photo-item" data-index="3">
+                    <img src="../Images/Bird1.jpg" alt="Wings of Tranquility">
+                    <div class="photo-title">Wings of Tranquility</div>
+                </div>
+                <div class="photo-item" data-index="4">
+                    <img src="../Images/Marbles.jpg" alt="Childhood in a Sphere">
+                    <div class="photo-title">Childhood in a Sphere</div>
+                </div>
+                <div class="photo-item" data-index="5">
+                    <img src="../Images/Spider.jpg" alt="Webbed Majesty">
+                    <div class="photo-title">Webbed Majesty</div>
+                </div>
+                <div class="photo-item" data-index="6">
+                    <img src="../Images/Cat.jpg" alt="Curious Whiskers">
+                    <div class="photo-title">Curious Whiskers</div>
+                </div>
+                <div class="photo-item" data-index="7">
+                    <img src="../Images/Peacock.jpg" alt="Regal Radiance">
+                    <div class="photo-title">Regal Radiance</div>
+                </div>
+                <div class="photo-item" data-index="8">
+                    <img src="../Images/Dog1.jpg" alt="Loyal Glance">
+                    <div class="photo-title">Loyal Glance</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox-overlay">
+        <button id="lightbox-close">×</button>
+        <button id="lightbox-prev" class="lightbox-nav"><i class="fa-solid fa-chevron-left"></i></button>
+        <img src="" alt="Enlarged gallery image" id="lightbox-img">
+        <button id="lightbox-next" class="lightbox-nav"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <footer>
+        <p>© 2025 Soveer P Shah. Designed & Built with ❤️.</p>
+        <a href="mailto:soveer18@gmail.com"> soveer18@gmail.com</a>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../Js/script.js"></script>
+</body>
+</html>

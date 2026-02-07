@@ -390,6 +390,9 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--bg-light
     .hero-content .social-links a { margin: 0 1rem; }
     .hero-image img { width: 250px; height: 250px; }
 
+    .project-card h3 {margin-top: 0.3rem;}
+    .project-image {margin-bottom: 0.3rem;}
+
     .page-section { padding-top: 120px; }
     h2 { font-size: 2rem; }
 }
@@ -421,8 +424,4 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--bg-light
 /* ---------- Read More Logic ---------- */
 .read-toggle {
   display: none;
-}
-
-.project-card h3{
-    margin-top: 0.5rem;
 }

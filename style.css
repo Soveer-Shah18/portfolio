@@ -70,6 +70,7 @@ nav { display: flex; justify-content: space-between; align-items: center; height
   display: flex;
   flex-direction: column;
   flex: 1; /* makes content stretch */
+  margin-top: -1rem;
 }
 .project-card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
 .project-card h3 { font-size: 1.5rem; color: var(--accent-color); margin-bottom: 1rem; }

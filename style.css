@@ -435,9 +435,9 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--bg-light
   margin-top: 0;
 }
 
-.project-card * {
+/* .project-card * {
   outline: 1px solid red;
-}
+} */
 /* ---------- Read More Logic ---------- */
 .read-toggle {
   display: none;

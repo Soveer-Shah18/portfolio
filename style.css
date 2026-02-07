@@ -393,6 +393,15 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--bg-light
     .project-card h3 {margin-top: 0.3rem;}
     .project-image {margin-bottom: 0.3rem;}
 
+    .project-image {
+    height: 200px;
+  }
+
+  .project-image img {
+    height: 100%;
+    object-fit: cover;
+  }
+
     .page-section { padding-top: 120px; }
     h2 { font-size: 2rem; }
 }
@@ -415,12 +424,20 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--bg-light
 
 .project-image{
     margin-bottom: 0.5rem;
+    height:auto;
     transition: transform 0.9s ease-out;
 }
 .project-image:hover {
    transform: scale(1.05);
 }
 
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card * {
+  outline: 1px solid red;
+}
 /* ---------- Read More Logic ---------- */
 .read-toggle {
   display: none;

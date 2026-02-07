@@ -411,6 +411,7 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--bg-light
 }
 
 .project-image{
+    margin-bottom: 0.5rem;
     transition: transform 0.9s ease-out;
 }
 .project-image:hover {
@@ -420,4 +421,8 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--bg-light
 /* ---------- Read More Logic ---------- */
 .read-toggle {
   display: none;
+}
+
+.project-card h3{
+    margin-top: 0.5rem;
 }

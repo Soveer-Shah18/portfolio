@@ -76,7 +76,11 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Soveer P Shah. Designed & Built with ❤️.</p>
+        <p id="copyright"></p>
+        <script>
+            const year = new Date(Date.now()).getFullYear();
+            document.getElementById("copyright").innerHTML = `© ${year} Soveer P Shah. Designed & Built with ❤️.`
+        </script>
         <a href="mailto:soveer18@gmail.com"> soveer18@gmail.com</a>
     </footer>
 
